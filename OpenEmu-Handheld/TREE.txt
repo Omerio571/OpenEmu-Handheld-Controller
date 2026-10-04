@@ -1,0 +1,104 @@
+OpenEmu-Handheld/
+├── .github
+│   └── ISSUE_TEMPLATE
+│       ├── bug_report.md
+│       └── feature_request.md
+├── configs
+│   ├── batocera
+│   │   └── README.md
+│   ├── emulator
+│   │   └── README.md
+│   ├── linux
+│   │   └── README.md
+│   └── README.md
+├── docs
+│   ├── bom
+│   │   ├── README.md
+│   │   └── v1-phone-prototype-bom.md
+│   ├── prototypes
+│   │   ├── README.md
+│   │   └── v1-phone-prototype.md
+│   ├── research
+│   │   └── README.md
+│   ├── architecture.md
+│   ├── project-overview.md
+│   ├── roadmap.md
+│   └── version-history.md
+├── firmware
+│   ├── controller
+│   │   └── README.md
+│   ├── power-management
+│   │   └── README.md
+│   └── README.md
+├── hardware
+│   ├── controller-left
+│   │   ├── interchange
+│   │   │   └── .gitkeep
+│   │   ├── printable
+│   │   │   └── .gitkeep
+│   │   ├── source
+│   │   │   └── .gitkeep
+│   │   └── README.md
+│   ├── controller-right
+│   │   ├── interchange
+│   │   │   └── .gitkeep
+│   │   ├── printable
+│   │   │   └── .gitkeep
+│   │   ├── source
+│   │   │   └── .gitkeep
+│   │   └── README.md
+│   ├── display-housing
+│   │   ├── printable
+│   │   │   └── .gitkeep
+│   │   ├── source
+│   │   │   └── .gitkeep
+│   │   └── README.md
+│   ├── main-shell
+│   │   ├── printable
+│   │   │   └── .gitkeep
+│   │   ├── source
+│   │   │   └── .gitkeep
+│   │   └── README.md
+│   ├── pcb
+│   │   ├── controller
+│   │   │   └── README.md
+│   │   ├── display
+│   │   │   └── README.md
+│   │   ├── power
+│   │   │   └── README.md
+│   │   └── README.md
+│   └── README.md
+├── media
+│   ├── diagrams
+│   │   └── .gitkeep
+│   ├── photos
+│   │   └── prototype-sketches
+│   │       └── v1-whiteboard-concept-2026-10-04.jpeg
+│   ├── renders
+│   │   └── .gitkeep
+│   └── README.md
+├── software
+│   ├── android-companion
+│   │   └── README.md
+│   ├── display-client
+│   │   └── README.md
+│   ├── linux-launcher
+│   │   └── README.md
+│   └── README.md
+├── tests
+│   ├── controller
+│   │   └── README.md
+│   ├── display
+│   │   └── README.md
+│   ├── performance
+│   │   └── README.md
+│   └── README.md
+├── .gitattributes
+├── .gitignore
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── README.md
+├── SECURITY.md
+├── THIRD_PARTY.md
+└── TREE.txt
