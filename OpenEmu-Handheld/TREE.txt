@@ -13,8 +13,8 @@ OpenEmu-Handheld/
 │   └── README.md
 ├── docs
 │   ├── bom
-│   │   ├── README.md
-│   │   └── v1-phone-prototype-bom.md
+│   │   ├── OpenEmu-Handheld-V1-BOM-with-Realistic-Cost.xlsx
+│   │   └── README.md
 │   ├── prototypes
 │   │   ├── README.md
 │   │   └── v1-phone-prototype.md
@@ -33,17 +33,20 @@ OpenEmu-Handheld/
 ├── hardware
 │   ├── controller-left
 │   │   ├── interchange
-│   │   │   └── .gitkeep
+│   │   │   ├── left-controller-layout-sketch.dxf
+│   │   │   ├── left-controller-r12.mtl
+│   │   │   └── left-controller-r12.obj
 │   │   ├── printable
-│   │   │   └── .gitkeep
+│   │   │   ├── left-controller-r10.3mf
+│   │   │   └── left-controller-r11.3mf
 │   │   ├── source
 │   │   │   └── .gitkeep
 │   │   └── README.md
 │   ├── controller-right
 │   │   ├── interchange
-│   │   │   └── .gitkeep
+│   │   │   └── right-controller-layout-sketch.dxf
 │   │   ├── printable
-│   │   │   └── .gitkeep
+│   │   │   └── right-controller-r01.3mf
 │   │   ├── source
 │   │   │   └── .gitkeep
 │   │   └── README.md
@@ -72,8 +75,10 @@ OpenEmu-Handheld/
 │   ├── diagrams
 │   │   └── .gitkeep
 │   ├── photos
-│   │   └── prototype-sketches
-│   │       └── v1-whiteboard-concept-2026-10-04.jpeg
+│   │   ├── prototype-sketches
+│   │   │   └── v1-whiteboard-concept-2026-10-04.jpeg
+│   │   └── prototypes
+│   │       └── v1-cardboard-prototype-2026-10-11.jpeg
 │   ├── renders
 │   │   └── .gitkeep
 │   └── README.md

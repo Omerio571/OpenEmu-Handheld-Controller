@@ -5,24 +5,37 @@ Project-created images and diagrams belong here.
 Directories:
 
 - `renders/` — CAD renders and rendered product concepts
-- `photos/` — prototype photographs and photographed design work
+- `photos/` — physical prototype photographs and photographed design work
 - `diagrams/` — architecture, wiring, and system diagrams
 
 ## Prototype Sketches
 
-Photographs of whiteboard or paper design sketches should be stored under:
+Photographs of whiteboard or paper design sketches are stored under:
 
 ```text
 photos/prototype-sketches/
 ```
 
-The image can remain in `media/` while its explanation lives in the relevant Markdown document. For example:
+Current example:
 
 ```text
-media/photos/prototype-sketches/v1-whiteboard-concept-2026-10-04.jpeg
-docs/prototypes/v1-phone-prototype.md
+photos/prototype-sketches/v1-whiteboard-concept-2026-10-04.jpeg
 ```
 
-The prototype document should link to the image using a relative Markdown path so that GitHub displays the image directly in the document.
+## Physical Prototype Photos
+
+Photos of physical mock-ups and assembled prototypes are stored separately under:
+
+```text
+photos/prototypes/
+```
+
+Current example:
+
+```text
+photos/prototypes/v1-cardboard-prototype-2026-10-11.jpeg
+```
+
+The image can remain in `media/` while its explanation lives in the relevant Markdown document. Prototype documentation should link to images with relative paths so GitHub displays them directly.
 
 Do not upload copyrighted game screenshots unless their use is clearly lawful and appropriate.

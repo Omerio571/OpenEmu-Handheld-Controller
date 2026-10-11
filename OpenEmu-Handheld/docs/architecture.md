@@ -7,20 +7,39 @@ This document describes the planned architecture at a high level. It will evolve
 The first version uses an Android phone as the main compute device.
 
 ```text
-                ┌─────────────────┐
-                │  Android Phone  │
-                │    Emulator     │
-                └────────┬────────┘
-                         │
-                    USB-C / Hub
-             ┌───────────┼───────────┐
-             │           │           │
-             ▼           ▼           ▼
-         HDMI video   Controller   Charging
-             │          input
-             ▼
-       7" HDMI display
+                     ┌─────────────────┐
+                     │  Android Phone  │
+                     │    Emulator     │
+                     └────────┬────────┘
+                              │
+                         USB-C / Hub
+                 ┌────────────┼─────────────┐
+                 │            │             │
+                 ▼            ▼             ▼
+             HDMI video   Controller     Touch USB
+                 │          input        (if needed)
+                 │
+                 ▼
+          7" HDMI display
+                 ▲
+                 │ 5 V power
+                 │
+        ┌────────┴─────────┐
+        │ charge / boost   │◄──── USB-C charger
+        │     module       │
+        └────────┬─────────┘
+                 │
+            3.7 V battery
 ```
+
+Current V1 power intent:
+
+- The battery connects to the charge/boost module, not to the USB hub.
+- The module supplies regulated 5 V power to the display.
+- The phone supplies the hub/controller/touch peripheral path.
+- HDMI from the hub carries video to the display.
+- The exact charge-module pad labels must be verified before final wiring.
+- Phone charging from the handheld battery is not a V1 requirement.
 
 Primary goals:
 
@@ -28,6 +47,7 @@ Primary goals:
 - Validate control layout.
 - Validate screen placement.
 - Validate battery / cable routing.
+- Validate mechanical clearances and component stress.
 - Validate sustained emulator performance.
 
 ## V2 — USB Secondary Display Transport

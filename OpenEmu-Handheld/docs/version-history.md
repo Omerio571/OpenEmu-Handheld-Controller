@@ -1,6 +1,6 @@
 # Version and Revision History
 
-Project release numbers and CAD revision numbers are intentionally separate.
+Project release numbers and component revision numbers are intentionally separate.
 
 ## Project Releases
 
@@ -17,22 +17,38 @@ Status:
 
 ## Mechanical Revisions
 
-The current left-controller design has gone through multiple private/internal iterations.
+Each mechanical subsystem uses its own revision sequence. A subsystem revision does not imply that the entire handheld is at the same version.
 
-Current working revision:
+### Left-Side Controller / Button-Wire Assembly
 
-```text
-Left Controller: r09
-```
+#### r10
 
-Older prototype files may have names such as "Version 5", "Version 7", or "Version 9". As files are added to the repository, they should be renamed using the standardized revision format.
+- Functional for the intended button and wire organization.
+- Confirmed that the basic layout could work.
+- Retained as an earlier printable development revision.
 
-Example:
+#### r11
 
-```text
-Board Left Side Version 9.f3d
-→ left-controller-r09.f3d
-```
+- Geometry was increased by roughly 5% to gain clearance.
+- Functionally worked, but the enlarged geometry introduced alignment problems.
+- Those alignment changes could place unwanted tension on components.
+- Kept for development history, not as the preferred current revision.
+
+#### r12 — Current
+
+- Corrects the alignment/component-stress issue observed after r11.
+- Uses targeted geometry changes rather than simply scaling the whole part.
+- Adds a feature intended to make later button-extension mounting easier.
+- Current repository export is `.OBJ` + `.MTL`; a current printable `.3MF` and editable native CAD source should be added when available.
+
+### Right-Side Controller
+
+#### r01 — Current
+
+- First physical right-side prototype.
+- Useful as an initial geometry/fit test.
+- Not considered final.
+- A second revision is planned after the left side is completed so its integration lessons can be carried over.
 
 ## Naming Rule
 
@@ -45,9 +61,25 @@ Use:
 Examples:
 
 ```text
-left-controller-r09.f3d
-left-controller-r09.3mf
-left-controller-r09.step
+left-controller-r12.obj
+left-controller-r12.mtl
+right-controller-r01.3mf
 display-bracket-r03.3mf
 main-shell-r02.step
 ```
+
+## Why a Working Part May Still Be Revised
+
+A revision is not considered complete only because it performs its immediate function.
+
+A part may be revised when:
+
+- clearances are too tight
+- scaling causes misalignment
+- components are held under continuous tension
+- cable bends are forced
+- future mounting features would be difficult to add
+- assembly or service would become unnecessarily difficult
+- a local geometry correction would be better than scaling the entire part
+
+This keeps early design choices from creating larger integration problems later in the build.

@@ -7,26 +7,34 @@ This roadmap is intentionally flexible. Prototype findings may change priorities
 - [x] Create public repository structure.
 - [x] Establish revision naming.
 - [x] Add licensing documentation.
-- [ ] Upload current left-controller CAD revision.
-- [ ] Export clean `.3MF`, `.STEP`, and `.OBJ` versions.
+- [x] Add current left-side revision export (`r12` OBJ/MTL).
+- [x] Add left-side earlier printable revisions (`r10`, `r11`).
+- [x] Add right-side first printable prototype (`r01`).
+- [x] Add full-size cardboard prototype photo and documentation.
+- [ ] Add current left `r12` printable `.3MF`.
+- [ ] Add editable native CAD for the current left revision.
+- [ ] Export clean `.STEP` for current mechanical revisions where useful.
 - [ ] Add current prototype renders.
-- [ ] Document print orientation and tolerances.
+- [ ] Document print orientation and measured tolerances.
 
 ## v0.2.x — V1 Controller Prototype
 
 - [ ] Finalize left controller geometry.
-- [ ] Design / finalize right controller.
+- [ ] Design / finalize right controller (`r02+` expected).
 - [ ] Finish button and joystick mounting.
 - [ ] Complete controller wiring.
 - [ ] Validate all controller inputs.
 - [ ] Integrate display mount.
 - [ ] Validate handheld ergonomics.
-- [ ] Document bill of materials.
+- [x] Document initial bill of materials.
+- [ ] Document final V1 mechanical clearances and component-stress checks.
 
 ## v0.3.x — V1 Integrated Handheld
 
 - [ ] Integrate battery.
-- [ ] Integrate USB-C hub.
+- [ ] Integrate charge/boost module for display power.
+- [ ] Verify power-module terminals before final wiring.
+- [ ] Integrate USB-C hub on the phone/peripheral path.
 - [ ] Integrate 7-inch display.
 - [ ] Improve cable routing.
 - [ ] Test full 3DS gameplay session.

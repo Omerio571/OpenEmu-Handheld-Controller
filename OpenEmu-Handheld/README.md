@@ -5,7 +5,8 @@ OpenEmu Handheld is an experimental handheld gaming controller and dual-screen p
 The project is currently in **pre-alpha hardware development**. At this stage, the repository mainly contains mechanical/CAD work, design documentation, and planning for later firmware and software.
 
 > **Current public release:** `v0.1.0`  
-> **Current left-controller CAD revision:** `r09`
+> **Current left-controller revision:** `r12`  
+> **Current right-controller revision:** `r01`
 
 ## Project Goals
 
@@ -45,7 +46,7 @@ Planned / current components include:
 - External physical controls
 - Microcontroller-based controller input
 - USB-C hub / display connection
-- Battery-powered handheld enclosure
+- Separate battery + charge/boost module for display power
 - 3D-printed mechanical parts
 
 ### Version 2 — USB Secondary Display
@@ -103,20 +104,22 @@ See [`docs/project-overview.md`](docs/project-overview.md) for the project overv
 Current V1 documentation:
 
 - [V1 Phone-Based Prototype](docs/prototypes/v1-phone-prototype.md)
-- [V1 Phone Prototype Bill of Materials](docs/bom/v1-phone-prototype-bom.md)
+- [V1 Phone Prototype BOM (Excel)](docs/bom/OpenEmu-Handheld-V1-BOM-with-Realistic-Cost.xlsx)
+- [Version and Revision History](docs/version-history.md)
 
 Prototype photos, sketches, diagrams, and renders are stored under [`media/`](media/).
 
-## File Naming
+## Revision Philosophy
 
-Mechanical revisions use the format:
+Project releases and part revisions are separate.
+
+A part can be functionally successful and still receive another revision if its fit, alignment, mechanical stress, serviceability, or future integration could cause problems later. The goal is not only to make each part work by itself, but to make it integrate cleanly with the rest of the handheld.
+
+Mechanical files use a per-part revision format such as:
 
 ```text
-left-controller-r09.f3d
-left-controller-r09.3mf
-left-controller-r09.step
-left-controller-r09.obj
-left-controller-r09.mtl
+left-controller-r12.obj
+right-controller-r01.3mf
 ```
 
 Project releases use semantic-style version numbers:
@@ -128,11 +131,15 @@ v0.x.x   Continued pre-release development
 v1.0.0   First complete, stable public release
 ```
 
-A CAD revision number such as `r09` is independent from the GitHub release number.
+A CAD/part revision such as `r12` is independent from the GitHub release number.
 
 ## Current Status
 
 The project is experimental. Mechanical dimensions, electronics, firmware interfaces, and software architecture may change significantly before `v1.0.0`.
+
+The left-side assembly has reached revision `r12`. Revision `r10` was functionally successful; `r11` explored increased clearance but introduced alignment and component-stress concerns; `r12` corrects those issues and adds provisions intended to simplify later button-extension mounting.
+
+The right side currently has an initial `r01` printable prototype and is expected to be revised after the left side is finalized.
 
 ## Licensing
 
