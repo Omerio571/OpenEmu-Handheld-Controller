@@ -1,0 +1,152 @@
+.gitattributes
+.github/
+.github/ISSUE_TEMPLATE/
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/feature_request.md
+.gitignore
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE.md
+README.md
+SECURITY.md
+THIRD_PARTY.md
+TREE.txt
+configs/
+configs/README.md
+configs/batocera/
+configs/batocera/README.md
+configs/emulator/
+configs/emulator/README.md
+configs/linux/
+configs/linux/README.md
+docs/
+docs/ARCHIVE-NOTES.md
+docs/architecture.md
+docs/archive-duplicates.csv
+docs/bom/
+docs/bom/OpenEmu-Handheld-V1-BOM-with-Realistic-Cost.xlsx
+docs/bom/README.md
+docs/cad-inventory.csv
+docs/project-overview.md
+docs/prototypes/
+docs/prototypes/README.md
+docs/prototypes/controller-fabrication.md
+docs/prototypes/v1-phone-prototype.md
+docs/research/
+docs/research/README.md
+docs/roadmap.md
+docs/version-history.md
+firmware/
+firmware/README.md
+firmware/controller/
+firmware/controller/LeftControllerSerialTest/
+firmware/controller/LeftControllerSerialTest/LeftControllerSerialTest.ino
+firmware/controller/README.md
+firmware/controller/RightControllerSerialTest/
+firmware/controller/RightControllerSerialTest/RightControllerSerialTest.ino
+firmware/power-management/
+firmware/power-management/README.md
+hardware/
+hardware/README.md
+hardware/controller-left/
+hardware/controller-left/README.md
+hardware/controller-left/interchange/
+hardware/controller-left/interchange/Board LEft SIde Version 7.obj
+hardware/controller-left/interchange/Board LEft SIde Version 9.obj
+hardware/controller-left/interchange/Board for Controller (Left).fbx
+hardware/controller-left/interchange/Board for Controller (Left).obj
+hardware/controller-left/interchange/LeftController Redo Version1.obj
+hardware/controller-left/interchange/LeftController Redo.obj
+hardware/controller-left/interchange/LeftController V12Sketch.dxf
+hardware/controller-left/interchange/LeftController Version 5.obj
+hardware/controller-left/interchange/LeftSide V15 .obj
+hardware/controller-left/interchange/Version 12 Left Side, with button extensions for future.obj
+hardware/controller-left/interchange/left-controller-layout-sketch.dxf
+hardware/controller-left/interchange/left-controller-r12.mtl
+hardware/controller-left/interchange/left-controller-r12.obj
+hardware/controller-left/printable/
+hardware/controller-left/printable/Board LEft SIde Version 9.3mf
+hardware/controller-left/printable/Board for Controller (Left)2.3mf
+hardware/controller-left/printable/Board for Controller (Left)3.3mf
+hardware/controller-left/printable/LeftController Redo Version1sss.3mf
+hardware/controller-left/printable/LeftController Redo.3mf
+hardware/controller-left/printable/LeftController Version 5.3mf
+hardware/controller-left/printable/LeftSide V15 .3mf
+hardware/controller-left/printable/Version 10 LeftSide EmuController.3mf
+hardware/controller-left/printable/Version 12 Left Side.3mf
+hardware/controller-left/printable/left-controller-r10.3mf
+hardware/controller-left/printable/left-controller-r11.3mf
+hardware/controller-left/source/
+hardware/controller-left/source/.gitkeep
+hardware/controller-left/source/Board LEft SIde.f3d
+hardware/controller-left/source/LeftController Redo Version1.f3d
+hardware/controller-left/source/LeftController Redo.f3d
+hardware/controller-left/source/LeftController RedoV1.f3d
+hardware/controller-right/
+hardware/controller-right/README.md
+hardware/controller-right/interchange/
+hardware/controller-right/interchange/RighSide V4 Sketch.dxf
+hardware/controller-right/interchange/RightController V4  Printable.obj
+hardware/controller-right/interchange/right-controller-layout-sketch.dxf
+hardware/controller-right/printable/
+hardware/controller-right/printable/RightController V2.3mf
+hardware/controller-right/printable/RightController V3  Printable.3mf
+hardware/controller-right/printable/RightController V4 Better Arduino COnnection + Improvements.3mf
+hardware/controller-right/printable/right-controller-r01.3mf
+hardware/controller-right/source/
+hardware/controller-right/source/.gitkeep
+hardware/controller-right/source/RightController V3.f3d
+hardware/display-housing/
+hardware/display-housing/README.md
+hardware/display-housing/printable/
+hardware/display-housing/printable/.gitkeep
+hardware/display-housing/source/
+hardware/display-housing/source/.gitkeep
+hardware/main-shell/
+hardware/main-shell/README.md
+hardware/main-shell/printable/
+hardware/main-shell/printable/.gitkeep
+hardware/main-shell/source/
+hardware/main-shell/source/.gitkeep
+hardware/pcb/
+hardware/pcb/README.md
+hardware/pcb/controller/
+hardware/pcb/controller/README.md
+hardware/pcb/display/
+hardware/pcb/display/README.md
+hardware/pcb/power/
+hardware/pcb/power/README.md
+media/
+media/README.md
+media/diagrams/
+media/diagrams/.gitkeep
+media/photos/
+media/photos/Version 1.png
+media/photos/Version 2.png
+media/photos/prototype-sketches/
+media/photos/prototype-sketches/v1-whiteboard-concept-2026-10-04.jpeg
+media/photos/prototypes/
+media/photos/prototypes/arduino-connection-ramp-sketch.png
+media/photos/prototypes/controller-prototype-photo-a.png
+media/photos/prototypes/controller-prototype-photo-b.png
+media/photos/prototypes/controller-routing-cad-study-a.png
+media/photos/prototypes/controller-routing-cad-study-b.png
+media/photos/prototypes/v1-cardboard-prototype-2026-10-11.jpeg
+media/renders/
+media/renders/.gitkeep
+software/
+software/README.md
+software/android-companion/
+software/android-companion/README.md
+software/display-client/
+software/display-client/README.md
+software/linux-launcher/
+software/linux-launcher/README.md
+tests/
+tests/README.md
+tests/controller/
+tests/controller/README.md
+tests/display/
+tests/display/README.md
+tests/performance/
+tests/performance/README.md
